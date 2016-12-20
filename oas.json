@@ -3,7 +3,7 @@
     "info": {
         "version": "",
         "title": "Github Watcher",
-        "description": "Github workflow server"
+        "description": "Github workflow server processor"
     },
     "host": "fb487046.ngrok.io",
     "schemes": [
@@ -58,6 +58,5 @@
             "dynamic": false,
             "enabled": false
         }
-    },
-    "x-tests": {}
+    }
 }
