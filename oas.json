@@ -1,0 +1,63 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "version": "",
+        "title": "Github Watcher",
+        "description": "Github workflow server"
+    },
+    "host": "fb487046.ngrok.io",
+    "schemes": [
+        "https"
+    ],
+    "paths": {
+        "/github": {
+            "post": {
+                "operationId": "POST_github",
+                "summary": "GitHub Events",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "text/plain"
+                ],
+                "responses": {
+                    "default": {
+                        "description": "",
+                        "schema": {}
+                    }
+                },
+                "x-stoplight": {
+                    "id": "POST_github",
+                    "beforeScript": null,
+                    "afterScript": null,
+                    "public": true,
+                    "mock": {
+                        "enabled": false,
+                        "dynamic": false,
+                        "statusCode": 200
+                    }
+                }
+            }
+        }
+    },
+    "definitions": {},
+    "x-stoplight": {
+        "beforeScript": "",
+        "afterScript": "",
+        "version": {
+            "groups": {
+                "savedEntries": [],
+                "tests": [],
+                "traits": [],
+                "docs": []
+            }
+        },
+        "functions": {},
+        "textSections": {},
+        "mock": {
+            "dynamic": false,
+            "enabled": false
+        }
+    },
+    "x-tests": {}
+}
