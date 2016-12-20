@@ -58,6 +58,5 @@
             "dynamic": false,
             "enabled": false
         }
-    },
-    "x-tests": {}
+    }
 }
