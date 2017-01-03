@@ -9,6 +9,7 @@
     "schemes": [
         "https"
     ],
+    "x-stoplight-version-id": "X3fJxJmWapMD6wN2P",
     "paths": {
         "/github": {
             "post": {
